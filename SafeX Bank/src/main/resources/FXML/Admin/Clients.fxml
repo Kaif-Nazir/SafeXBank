@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="665.0" prefWidth="876.0" stylesheets="@../../Styles/clients_view_table.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.safexbank.safexbank.Controllers.Admin.ClientsController">
+            <stylesheets>
+                <URL value="@../../Styles/delete_from_table.css" />
+            </stylesheets>
+
+<TableView fx:id="clientsTable" prefHeight="600" prefWidth="758.0">
+    <columns>
+        <TableColumn fx:id="idCol" text="ID" />
+        <TableColumn fx:id="firstNameCol" text="First Name" />
+        <TableColumn fx:id="lastNameCol" text="Last Name" />
+        <TableColumn fx:id="payeeAddressCol" prefWidth="132.15585327148438" text="Payee Address" />
+        <TableColumn fx:id="passwordCol" prefWidth="90.18182373046875" text="Password" />
+        <TableColumn fx:id="checkingAccCol" prefWidth="79.58438110351562" text="Checking Acc" />
+        <TableColumn fx:id="savingsAccCol" prefWidth="109.922119140625" text="Savings Acc" />
+         <TableColumn fx:id="deleteAccCol" prefWidth="87.8961181640625" text="Delete">
+            <graphic>
+               <FontAwesomeIconView fill="RED" glyphName="REMOVE" />
+            </graphic></TableColumn>
+    </columns>
+</TableView>
+   <Button fx:id="refresh_btn" layoutX="756.0" layoutY="28.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="103.0" text="REFRESH" AnchorPane.rightAnchor="12.519477956189192">
+      <graphic>
+         <FontAwesomeIconView fx:id="refresh_font_icon" fill="#c6ffbfd4" glyphName="REFRESH" size="20" />
+      </graphic>
+   </Button>
+</AnchorPane>

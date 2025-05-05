@@ -1,0 +1,81 @@
+/* TableView Styling */
+.table-view {
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #c3c3c3;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px;
+    -fx-table-cell-border-color: transparent;
+}
+
+/* TableColumn Headers */
+.table-view .column-header-background {
+    -fx-background-color: linear-gradient(to right, #145514, #0d260d);
+    -fx-background-radius: 8px 8px 0 0;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 40px;
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 1.1em;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+/* Table rows */
+.table-row-cell {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: linear-gradient(to right, #cde0c9, #e4f5db); /* Softer green gradient */
+    -fx-text-fill: #1e4620; /* Darker elegant text */
+}
+
+.table-view .table-cell:selected {
+    -fx-background-color: linear-gradient(to right, #cde0c9, #e4f5db); /* Smooth green */
+    -fx-text-fill: #1e4620;
+}
+
+.table-view .table-row-cell:filled:selected,
+.table-view .table-row-cell:selected {
+    -fx-background-color: linear-gradient(to right, #cde0c9, #e4f5db);
+    -fx-text-fill: #1e4620;
+}
+
+.table-view .table-row-cell .text {
+    -fx-fill: #1e4620; /* Ensures text color */
+}
+
+/* Button Styling */
+#refresh_btn {
+    -fx-background-color: linear-gradient(to right, #0d260d, #145514);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, #aaaaaa, 5, 0, 0, 0);
+}
+
+#refresh_btn:hover {
+    -fx-background-color: linear-gradient(to right, #145514, #1e5128);
+}
+
+/* Overall Styling for Table Row and Cell Hover */
+.table-row-cell:hover {
+    -fx-background-color: #e4f5db; /* Slight green hover effect */
+    -fx-border-color: #d0d0d0; /* Light border */
+}
+
+/* General Table Styling */
+.table-view {
+    -fx-font-size: 1.1em;
+    -fx-font-family: "Gill Sans", sans-serif;
+}

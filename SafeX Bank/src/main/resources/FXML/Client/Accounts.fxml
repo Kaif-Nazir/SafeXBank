@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="703.0" prefWidth="808.0" styleClass="account_view_container" stylesheets="@../../Styles/Accounts.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.safexbank.safexbank.Controllers.Client.AccountsController">
+   <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Checking Account" underline="true" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+   <VBox layoutX="22.0" layoutY="71.0" prefHeight="245.0" prefWidth="354.0" styleClass="outlined-box" AnchorPane.leftAnchor="22.0" AnchorPane.topAnchor="71.0">
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Account Number:" />
+      <Label fx:id="ch_acc_num" text="3452-4950" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Date Created" />
+      <Label fx:id="ch_acc_date" text="10-11-2022" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Balance" />
+      <Label fx:id="ch_acc_bal" text="3.344.54" />
+   </VBox>
+   <Text layoutX="13.714286053999023" layoutY="368.07306076515647" strokeType="OUTSIDE" strokeWidth="0.0" text="Savings Account" underline="true" AnchorPane.leftAnchor="13.714286053999023" AnchorPane.topAnchor="354.94806076515647" />
+   <VBox layoutX="18.0" layoutY="446.0" prefHeight="248.0" prefWidth="354.0" styleClass="outlined-box" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="18.0">
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Account Number:" />
+      <Label fx:id="sv_acc_num" text="3452-4950" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Date Created:" />
+      <Label fx:id="sv_acc_date" text="10-11-2022" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Balance:" />
+      <Label fx:id="sv_acc_bal" text="22.333.11" />
+   </VBox>
+   <Text layoutX="435.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move fund to savings account:" AnchorPane.rightAnchor="165.0" />
+   <TextField fx:id="amount_to_sv" layoutX="539.0" layoutY="84.0" prefHeight="25.0" prefWidth="220.0" styleClass="outlined-box" AnchorPane.rightAnchor="157.0" />
+   <Button fx:id="trans_to_sv_btn" layoutX="431.0" layoutY="136.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="220.0" text="Transfer" AnchorPane.rightAnchor="157.0" AnchorPane.topAnchor="136.0" />
+   <Text layoutX="438.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move fund to checking account:" AnchorPane.rightAnchor="164.0" AnchorPane.topAnchor="364.0" />
+   <TextField fx:id="amount_to_ch" layoutX="429.0" layoutY="406.0" prefHeight="25.0" prefWidth="220.0" styleClass="outlined-box" AnchorPane.rightAnchor="157.0" AnchorPane.topAnchor="392.0" />
+   <Button fx:id="trans_to_cv_btn" layoutX="431.0" layoutY="435.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="220.0" text="Transfer" AnchorPane.rightAnchor="157.0" AnchorPane.topAnchor="441.0" />
+</AnchorPane>

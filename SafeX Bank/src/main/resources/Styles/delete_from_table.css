@@ -1,0 +1,21 @@
+/* Default state for the delete button */
+.delete-btn {
+    -fx-background-color: #ff4d4d; /* Light red color */
+    -fx-text-fill: white;
+    -fx-font-size: 0.9em;  /* Slightly smaller font size */
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-padding: 6px 14px; /* Reduced padding for better fit */
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, #000000, 5, 0, 0, 3);
+    -fx-transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Hover effect for delete button */
+.delete-btn:hover {
+    -fx-background-color: #ff0000; /* Bright red when hovered */
+    -fx-effect: dropshadow(three-pass-box, #000000, 10, 0, 0, 5);
+    -fx-font-size: 1em;  /* Slightly increase font size on hover */
+    -fx-padding: 7px 15px;  /* Slightly larger padding on hover */
+}

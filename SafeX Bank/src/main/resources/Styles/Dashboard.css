@@ -1,0 +1,216 @@
+
+.dashboard {
+    background-color: #EEEEEE;
+}
+
+.dashboard Text {
+    -fx-font-size: 1.3em; /* Original font size */
+    -fx-font-family: "Gill Sans MT"; /* A clean, professional font */
+    -fx-text-fill: #2E4A2A; /* Deep green color for a more sophisticated look */
+    -fx-padding: 5; /* Padding to give a little breathing space around the text */
+}
+
+.user_name {
+    -fx-font-size: 2em; /* Bigger for prominence */
+    -fx-font-family: "Gill Sans", "Segoe UI", sans-serif;
+    -fx-font-weight: bold; /* Makes it stronger */
+    -fx-text-fill: #2C3E50; /* A modern dark blue-gray color */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 3, 0, 1, 1); /* Subtle shadow */
+    -fx-padding: 10 0 10 0; /* Add vertical spacing */
+}
+.date_lbl {
+    -fx-text-fill: #AAAAAA;
+    -fx-font-size: 1.1em;
+    -fx-font-family: "Gill Sans MT";
+}
+
+.section_title {
+    -fx-font-size: 1.4em;
+    -fx-font-family: "Gill Sans MT";
+}
+
+/* accounts view */
+.accounts_view {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10 0 0 10;
+    -fx-alignment: center;
+    -fx-border-color: #DDDDDD;
+    -fx-spacing: 10;
+}
+
+.account {
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 10, 0, 0, 10);
+}
+
+.account Vbox {
+    -fx-background-color: #FFFFFF;
+}
+
+.account Text {
+    -fx-fill: #FFFFFF;
+    -fx-font-family: "Gill Sans MT";
+    -fx-font-size: 1.5em;
+}
+
+.account_checking {
+    /*-fx-background-color: linear-gradient(to right, #132A13, #253F25);*/
+    -fx-background-color: linear-gradient(to right, #0D260D, #1E5128);
+}
+
+.account_balance {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Gill Sans MT";
+    -fx-font-size: 3em;
+    -fx-font-weight: bold;
+}
+
+.account_numbers {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Gill Sans MT";
+    -fx-font-size: 1.5em;
+    -fx-text-alignment: center;
+}
+
+/* Accounts summary field */
+.summary_view {
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 5 10 5 10;
+    -fx-spacing: 5;
+    -fx-alignment: center;
+}
+
+.acc_salary_container {
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-alignment: center_left;
+    -fx-border-radius: 10;
+    -fx-border-color: #999999;
+    -fx-border-width: 1;
+    -fx-border-style: dashed;
+}
+
+.acc_summary_container Line {
+    -fx-stroke: #AAAAAA;
+}
+
+
+/* Transcactions field */
+
+.transaction_listview {
+    -fx-background-color: #EEEEEE;
+    -fx-border-width: 0 0 0 0;
+    -fx-border-color: #AAAAAA;
+}
+
+.transaction_listview .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
+
+.list-cell {
+    -fx-background-color: #EEEEEE;
+    -fx-padding: 15 0 15 0;
+}
+
+/* Send money section */
+.new_trans_container {
+    -fx-background-color: #EEEEEE;
+    -fx-padding: 20 12 20 12;
+    -fx-spacing: 15;
+    -fx-alignment: CENTER_LEFT;  /* Aligns all items to the left */
+}
+
+.new_trans_container Label {
+    -fx-font-family: "Gill Sans";
+    -fx-font-size: 1.3em;
+}
+
+.new_trans_container TextField {
+    -fx-pref-height: 40;
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+}
+
+/* Default Button Style */
+.new_trans_container Button {
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3); /* Subtle shadow */
+    -fx-background-color: linear-gradient(to right, #0D260D, #1E5128); /* Deep green gradient */
+    -fx-pref-width: 230;
+    -fx-font-size: 1.2em; /* Slightly smaller font size for a more refined look */
+    -fx-font-family: "Arial", sans-serif; /* Changed to a clean font */
+    -fx-padding: 12 20; /* Less padding for a more compact button */
+    -fx-text-fill: #FFFFFF;
+    -fx-border-radius: 6px; /* Rounded corners for elegance */
+    -fx-background-radius: 6px; /* Matching border radius */
+    -fx-transition: background-color 0.2s ease, -fx-effect 0.2s ease; /* Smooth transition for background color and shadow */
+}
+
+/* Hover Effect */
+.new_trans_container Button:hover {
+    -fx-cursor: hand;
+    -fx-background-color: linear-gradient(to right, #145514, #2A7A2A); /* Slightly lighter green */
+    -fx-effect: dropshadow(three-pass-box, #7B9A6F, 3, 0, 0, 6); /* Subtle shadow on hover */
+    -fx-text-fill: #FFFFFF; /* Ensure text remains white */
+}
+
+/* Pressed Effect */
+.new_trans_container Button:pressed {
+    -fx-background-color: linear-gradient(to right, #1B7C1B, #3C9B3C); /* Darker green when pressed */
+    -fx-effect: dropshadow(three-pass-box, #7B9A6F, 5, 0, 0, 8); /* Slightly stronger shadow on press */
+}
+
+
+.checkbox {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Dark text color */
+    -fx-padding: 5px;
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+      -fx-background-radius: 10px;
+}
+
+.checkbox:selected {
+    -fx-border-color: red;
+    -fx-background-color: #ffe6e6;  /* Light red background when selected */
+    -fx-background-radius: 10px;  /* Rounded corners */
+    -fx-border-radius: 10px;  /* Rounded border to match the background */
+}
+
+.hbox_container_Text {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Dark text color */
+    -fx-padding-left: 10px;
+    -fx-font-weight: bold; /* Makes the text bold */
+}
+
+.refresh_btn {
+    /*-fx-background-color: #4CAF50; /* fresh green */
+    -fx-background-color: linear-gradient(to right, #0D260D, #1E5128);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 1);
+}
+
+.refresh_btn:hover {
+    -fx-background-color: #132A13;
+}
+
+.refresh_btn:pressed {
+    -fx-background-color: #132A13;
+    -fx-text-fill: #4CAF50;
+    -fx-border-color: #4CAF50;
+}
+
+.outlined-box {
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-radius: 4;
+    -fx-padding: 10;
+}

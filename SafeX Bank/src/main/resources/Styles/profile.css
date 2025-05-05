@@ -1,0 +1,76 @@
+/* General Styling for the Container */
+.AnchorPane {
+    -fx-background-color:  #DFFFE0; /* Light background color */
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+}
+
+/* Styling for the VBox containing all items */
+.AnchorPane VBox {
+    -fx-spacing: 15px; /* Space between the rows */
+    -fx-alignment: top-center; /* Align vertically at the center */
+    -fx-background-color: transparent;
+    -fx-padding: 15px;
+}
+
+/* Styling for each HBox row inside VBox */
+.AnchorPane HBox {
+    -fx-alignment: center-left; /* Align the content to the left */
+    -fx-spacing: 15px; /* Space between the label and value */
+    -fx-padding: 5px;
+}
+
+.AnchorPane Text {
+    -fx-font-family: "Gill Sans MT", sans-serif; /* Font family */
+    -fx-font-size: 15px; /* Font size */
+    -fx-font-weight: bold; /* Bold text for keys */
+    -fx-text-fill: #2c3e50; /* Darker color for the keys */
+    -fx-padding: 5px; /* Add some padding around the text */
+    -fx-wrapping-width: 124px; /* Set the wrapping width for text */
+    -fx-text-alignment: left; /* Align text to the left */
+    -fx-line-spacing: 2px; /* Optional: Adds space between lines */
+}
+
+/* Label Styling */
+.AnchorPane Label {
+    -fx-font-family: "Gill Sans", sans-serif; /* Font family */
+    -fx-font-size: 18px; /* Font size */
+    -fx-text-fill: #2c3e50;
+    -fx-font-weight: normal; /* Normal weight for text */
+}
+
+/* Button Styling (Generic Button) */
+AnchorPane Button {
+    -fx-background-color: #28a745; /* Green color for action button */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 4, 0, 0, 2);
+}
+
+/* Delete Button Styling */
+.Button_delete_btn {
+    -fx-background-color: #e74c3c; /* Red color for delete */
+}
+.Button_delete_btn:hover {
+    -fx-background-color: #c0392b; /* Darker red on hover */
+}
+.Button_delete_btn:pressed {
+    -fx-background-color: black;
+}
+.Button_delete_btn FontAwesomeIconView {
+    -fx-fill: black;
+    -fx-padding: 5px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 4, 0, 0, 2);
+}
+
+.outlined-box {
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-radius: 4;
+    -fx-padding: 10;
+}

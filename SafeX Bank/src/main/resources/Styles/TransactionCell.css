@@ -1,0 +1,45 @@
+
+.cell_container {
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 7);
+}
+
+
+.trans_icon_container {
+    -fx-background-color: #FFFFFF;
+    -fx-alignment: center;
+    -fx-spacing: 5;
+}
+
+.FontAwesomeIconView {
+     -fx-fill: linear-gradient(to right, #0D260D 5%, #28a745 30%, #4CAF50 70%, #28a745 95%);
+    -fx-padding: 8px;  /* Reduced padding for more compact look */
+    -fx-border-radius: 12px;  /* Slightly more rounded corners */
+}
+
+.trans_date_lbl {
+    -fx-text-fill: #AAAAAA;
+    -fx-font-weight: 700;
+}
+
+.trans_pAddress_lbl {
+    -fx-text-fill: #000000;
+    -fx-font-weight: 700;
+}
+
+.cell_container Line {
+    -fx-stroke: black;
+}
+
+.trans_amount_lbl {
+    -fx-background-color: #132A13;
+
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 5;
+    -fx-font-weight: 700;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3); /* Subtle shadow */
+    -fx-background-color: linear-gradient(to right, #0D260D, #1E5128); /* Deep green gradient */
+    -fx-background-radius: 8px; /* Matching border radius */
+    -fx-transition: background-color 0.2s ease, -fx-effect 0.2s ease;
+}

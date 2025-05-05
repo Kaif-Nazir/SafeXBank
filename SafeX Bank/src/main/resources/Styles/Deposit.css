@@ -1,0 +1,53 @@
+.new_trans_container {
+    -fx-background-color: linear-gradient(to bottom right, #f0f4f5, #d9e4dd);
+    -fx-border-color: #c1c1c1;
+    -fx-border-width: 2px;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-padding: 20px;
+    -fx-spacing: 15px;
+}
+
+/* Style the Label */
+.new_trans_container Label {
+    -fx-font-size: 1.2em;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+}
+
+/* Style the TextFields */
+.new_trans_container TextField {
+    -fx-pref-height: 40px;
+    -fx-font-size: 1.1em;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #ccc;
+    -fx-background-color: #ffffff;
+    -fx-padding: 5px 10px;
+}
+
+/* Style the Button */
+.new_trans_container Button {
+    -fx-background-color: linear-gradient(to right, #132A13, #1E5128);
+    -fx-text-fill: white;
+    -fx-font-size: 1.3em;
+    -fx-font-weight: bold;
+
+    -fx-pref-height: 45px;
+    -fx-background-radius: 10px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 4);
+}
+
+.new_trans_container Button:hover {
+    -fx-cursor: hand;
+    -fx-background-color: linear-gradient(to right, #145514, #2A7A2A); /* Slightly lighter green */
+    -fx-effect: dropshadow(three-pass-box, #7B9A6F, 3, 0, 0, 6); /* Subtle shadow on hover */
+    -fx-text-fill: #FFFFFF; /* Ensure text remains white */
+}
+
+/* Pressed Effect */
+.new_trans_container Button:pressed {
+    -fx-background-color: linear-gradient(to right, #1B7C1B, #3C9B3C); /* Darker green when pressed */
+    -fx-effect: dropshadow(three-pass-box, #7B9A6F, 5, 0, 0, 8); /* Slightly stronger shadow on press */
+}
