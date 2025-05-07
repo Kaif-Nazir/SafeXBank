@@ -1,11 +1,13 @@
 # PREVIEW
 
-Small-Preview Of Application Important Features
+Small-Preview Of Application Important Features 
+🚨 **Important Note:** <b>Turn On Audio</b> **🔊**
+
 
 
 https://github.com/user-attachments/assets/7d8b0e0c-37b5-49dc-9bda-8ece1e4ef3cf
 
-# SafexBank Demo
+## 📽️ SafexBank Demo (Click to Play GIF)
 
 ![SafexBank Demo](safexbank.gif)
 
