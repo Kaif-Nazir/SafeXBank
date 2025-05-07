@@ -2,7 +2,8 @@
 
 Small-Preview Of Application Important Features
 
-https://github.com/user-attachments/assets/9be40629-914d-4c22-9212-8f792384320c
+
+https://github.com/user-attachments/assets/7d8b0e0c-37b5-49dc-9bda-8ece1e4ef3cf
 
 # SafexBank Demo
 
