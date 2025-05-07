@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/9be40629-914d-4c22-9212-8f792384320c
 
 ![SafexBank Demo](safexbank.gif)
 
-SafexBank is a secure banking app built with Java and Spring Boot.
+SafexBank is a secure banking app built with Java and JavaFX.
 
 # SafexBank
 
@@ -34,7 +34,7 @@ SafexBank is a banking application built with **Java** and **JavaFX**. The proje
 Before you begin, ensure you have the following installed:
 
 - **JDK 11+** (or higher) - Java Development Kit
-- **Maven** - Dependency management and build tool
+- **Maven** - – Dependency management and build tool (used to manage JavaFX and FontAwesomeFX dependencies)
 - **MySQL** - Or any other database you're using
 - **Git** - For version control
 
