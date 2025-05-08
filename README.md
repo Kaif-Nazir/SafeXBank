@@ -1,7 +1,7 @@
-# PREVIEW
+# PREVIEW (Turn On Audio) 🔊
 
 Small-Preview Of Application Important Features 
-🚨 **Important Note:** <b>Turn On Audio</b> **🔊**
+🚨 **Important Note:** <b>(Turn On Audio)</b> **🔊**
 
 
 
