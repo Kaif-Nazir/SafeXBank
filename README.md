@@ -1,8 +1,9 @@
-# PREVIEW (Turn On Audio) 🔊
+# 🔊 PREVIEW (Turn On Audio)
 
-Small-Preview Of Application Important Features 
-🚨 **Important Note:** <b>(Turn On Audio)</b> **🔊**
+> 🎥 **Small Preview of the Key Features of the Application**  
+> 🚨 **Important Note:** <b>(Turn On Audio)</b> **🔊**
 
+[![Static Badge](https://img.shields.io/badge/Watch%20On%20You%20Tube-%23FF073A?style=for-the-badge&logo=youtube&logoColor=red&labelColor=%231c1c3c)](https://youtu.be/g1NhPnBkRac?si=S9dy0_jJXFXIdzYB)
 
 
 https://github.com/user-attachments/assets/7d8b0e0c-37b5-49dc-9bda-8ece1e4ef3cf
